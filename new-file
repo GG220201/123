@@ -1,1 +1,9 @@
+car=([2]=wuling [1]=hongqi [0]=dazhong)
+a=0
+num=([8]=0 [7]=1 [6]=2 [5]=3 [4]=4 [3]=5 [2]=6 [1]=7 [0]=8)
+for i in "${num[@]}" ;do
+       echo $i
+       echo $a
+       ((a++))
+done
 
